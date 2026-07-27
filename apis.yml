@@ -1,8 +1,24 @@
 aid: future-nostalgia-studios
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/future-nostalgia-studios.png
 name: Future Nostalgia Studios
-description: Future Nostalgia Studios is a company surfaced as a portfolio company of a16z and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Future Nostalgia Studios, Inc. is a consumer software company that builds AI-powered mobile
+  applications and companion experiences for iOS and Android. Its published apps include Kindred (AI
+  stories and roleplay), Muze (AI fashion photography), Booboo (long-distance relationship tracker),
+  Pocket Frens (self-care and habit tracker), and Minime (AI motivational buddy). Surfaced as an a16z
+  portfolio company and added to the API Evangelist network. As of this enrichment pass the company
+  publishes no public API, developer portal, SDK, documentation, or /.well-known surface — it is a
+  business-to-consumer app studio rather than an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/future-nostalgia-studios/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +28,21 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Consumer
+- Mobile
+- Artificial Intelligence
+- Companion Apps
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
